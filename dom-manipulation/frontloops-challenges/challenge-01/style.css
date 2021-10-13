@@ -1,0 +1,46 @@
+html,
+body,
+.flex-container {
+    height: 100%;
+    width: 100%;
+    background-color: #73B9FF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.selector-container {
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #5796FF;
+    border-radius: 8px;
+}
+
+.selector-container div {
+    padding: 4%;
+    border-right: 1px solid #5796FF;
+}
+
+.active-segment {
+    background-color: #5796FF;
+    color: white;
+}
+
+.jumbotron {
+    padding: 1.5em;
+    background-color: #fff;
+    border-radius: 7px;
+    border: #DEDEDE solid 2px;
+    width: 100%;
+    max-width: 620px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-item:hover {
+    background-color: #d5e0eb;
+    cursor:pointer;
+}
